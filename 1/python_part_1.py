@@ -56,5 +56,3 @@ for i in it:
     s += (l * 10) + r
 
 # print(s)
-
-# Part 2
