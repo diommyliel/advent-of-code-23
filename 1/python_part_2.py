@@ -36,13 +36,13 @@ with open(input_file, 'r') as f:
             if pos == -1:
                 continue
             if pos < li:
-                l = sub[k]
+                left = sub[k]
                 li = pos
             if posr > ri:
                 r = sub[k]
                 ri = posr
 
-        ret = (l * 10) + r
+        ret = (left * 10) + r
         s += ret
         print(ret)
 
@@ -62,7 +62,7 @@ it.append('7pqrstsixteen')
 
 s = 0
 for i in it:
-    l = 0
+    left = 0
     r = 0
 
     li = len(i) + 1
@@ -73,13 +73,13 @@ for i in it:
         if pos == -1:
             continue
         if pos < li:
-            l = sub[k]
+            left = sub[k]
             li = pos
         if pos > ri:
             r = sub[k]
             ri = pos
 
-    ret = (l * 10) + r
+    ret = (left * 10) + r
     s += ret
 
 print(s)

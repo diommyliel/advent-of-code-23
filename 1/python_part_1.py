@@ -9,19 +9,19 @@ with open(input_file, 'r') as f:
 
         while li <= len(i):
             try:
-                l = int(i[li])
+                left = int(i[li])
                 break
-            except:
+            except Exception:
                 li += 1
 
         while ri >= - len(i):
             try:
                 r = int(i[ri])
                 break
-            except:
+            except Exception:
                 ri -= 1
 
-        s += (l * 10) + r
+        s += (left * 10) + r
 
     print(s)
 
@@ -41,18 +41,18 @@ for i in it:
 
     while li <= len(i):
         try:
-            l = int(i[li])
+            left = int(i[li])
             break
-        except:
+        except Exception:
             li += 1
 
     while ri >= - len(i):
         try:
             r = int(i[ri])
             break
-        except:
+        except Exception:
             ri -= 1
 
-    s += (l * 10) + r
+    s += (left * 10) + r
 
 # print(s)
