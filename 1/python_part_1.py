@@ -20,6 +20,8 @@ with open(input_file, 'r') as f:
                 break
             except Exception:
                 ri -= 1
+        
+        print((left * 10) + r)
 
         s += (left * 10) + r
 
