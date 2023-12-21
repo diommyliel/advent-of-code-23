@@ -1,7 +1,6 @@
 module Main where
 
 import Distribution.ModuleName (main)
-import Text.XHtml (content, input)
 import Data.Char (isDigit, digitToInt)
 
 fileName = "/home/diommy/Documents/dev/advent-of-code-23/1/input.txt"
@@ -15,12 +14,11 @@ main = do
 
 
 filterNonDigit :: String -> String
-filterNonDigit str = filter isDigit str
+filterNonDigit = filter isDigit
 
 getInputTest :: FilePath -> IO String
-getInputTest file_name = do  
-    x <- readFile file_name
-    return x
+getInputTest file_name = do
+    readFile file_name
 
 calcDoubleDigit :: String -> Int
 calcDoubleDigit str = digitToInt (head str ) * 10 + digitToInt (last str)
