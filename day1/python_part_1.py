@@ -1,5 +1,5 @@
 # Part 1
-input_file = './1/input.txt'
+input_file = './day1/input.txt'
 
 with open(input_file, 'r') as f:
     s = 0

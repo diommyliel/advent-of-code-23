@@ -10,7 +10,7 @@ import (
 
 func main() {
 	// init vars
-	file_name := "./1/input.txt"
+	file_name := "./day1/input.txt"
 
 	var l int
 	var r int
