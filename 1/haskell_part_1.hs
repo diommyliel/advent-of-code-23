@@ -3,7 +3,7 @@ module Main where
 import Distribution.ModuleName (main)
 import Data.Char (isDigit, digitToInt)
 
-fileName = "/home/diommy/Documents/dev/advent-of-code-23/1/input.txt"
+fileName = "./1/input.txt"
 
 main :: IO()
 main = do

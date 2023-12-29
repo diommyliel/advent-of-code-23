@@ -1,5 +1,5 @@
 # Part 1
-input_file = '/home/diommy/Documents/dev/advent-of-code-23/1/input.txt'
+input_file = './1/input.txt'
 
 with open(input_file, 'r') as f:
     s = 0
@@ -20,7 +20,7 @@ with open(input_file, 'r') as f:
                 break
             except Exception:
                 ri -= 1
-        
+
         print((left * 10) + r)
 
         s += (left * 10) + r

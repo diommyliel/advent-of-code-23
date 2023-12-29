@@ -10,7 +10,7 @@ import (
 
 func main() {
 	// init vars
-	file_name := "/home/diommy/Documents/dev/advent-of-code-23/1/input.txt"
+	file_name := "./1/input.txt"
 
 	var l int
 	var r int

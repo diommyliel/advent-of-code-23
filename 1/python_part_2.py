@@ -1,6 +1,6 @@
 # Part 2
 # see problem with line 2, 6 appearing multiple times
-input_file = '/home/diommy/Documents/dev/advent-of-code-23/1/input.txt'
+input_file = './1/input.txt'
 
 sub = {
     'one': 1,
