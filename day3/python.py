@@ -21,7 +21,7 @@ def get_symbol_adjacent_indices(symbol_index, len_line):
     return ret_set
 
 
-def calc(f):
+def part_1(f):
     len_line = f.find('\n') + 1
     symbol_adjacent_indices = set()
     symbols = re.finditer(char_pattern, f)
@@ -37,11 +37,6 @@ def calc(f):
                 break
     res = reduce(lambda x, y: x + y, parts_num)
     return res
-
-
-def part_1(f):
-    ret = calc(f)
-    return ret
 
 
 def part_2(f):
