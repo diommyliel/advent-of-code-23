@@ -50,7 +50,7 @@ def part_2(f):
             dict_num[i] = {'id': id_num, 'val': int(n)}
         id_num += 1
     gears = re.finditer(gear_pattern, f)
-    gear_ratio_list =[]
+    gear_ratio_list = []
     for gear in gears:
         gear_adjacent_num_val_list = []
         gear_adjacent_num_id_set = set()
